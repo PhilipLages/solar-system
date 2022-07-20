@@ -1,6 +1,7 @@
-.cards{
+.cards {
   display: flex;
 }
+
 .planetCard {
   text-align: center;
 }
