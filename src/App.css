@@ -1,3 +1,10 @@
-.App {
+.cards{
+  display: flex;
+}
+.planetCard {
   text-align: center;
+}
+
+.img {
+  width: 100px;
 }
