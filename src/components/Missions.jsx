@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import MissionCard from './MissionCard';
+import missions from '../data/missions';
 import Title from './Title';
 
 class Missions extends Component {
   render() {
-    const { missions } = this.props;
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
@@ -23,14 +22,5 @@ class Missions extends Component {
     );
   }
 }
-
-Missions.propTypes = {
-  missions: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    year: PropTypes.string,
-    country: PropTypes.string,
-    destination: PropTypes.string,
-  })).isRequired,
-};
 
 export default Missions;
