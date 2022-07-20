@@ -6,6 +6,7 @@ import Title from './Title';
 class SolarSystem extends Component {
   render() {
     const { planets } = this.props;
+    console.log(planets);
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />

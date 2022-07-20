@@ -9,3 +9,17 @@
 .img {
   width: 100px;
 }
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missionCard {
+  border: 1px solid;
+  border-radius: 10%;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
