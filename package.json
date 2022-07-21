@@ -2,7 +2,7 @@
   "name": "solar-system",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://philiplages.github.io/projects/solar-system/",
+  "homepage": "https://philiplages.github.io/solar-system",
   "engines": {
     "node": "16"
   },
