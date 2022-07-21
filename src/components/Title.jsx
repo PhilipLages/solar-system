@@ -5,7 +5,9 @@ class Title extends Component {
   render() {
     const { headline } = this.props;
     return (
-      <h2>{headline}</h2>
+      <section className="titleBox">
+        <h2 className="title">{headline}</h2>
+      </section>
     );
   }
 }
